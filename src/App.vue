@@ -34,7 +34,6 @@
         reponse = reponse.body;
         if (reponse.errno === ERO_OK) {
           this.seller = reponse.data;
-          console.log(this.seller);
         }
       });
     },
